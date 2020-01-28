@@ -50,7 +50,7 @@ In Office 365, this example resends the sharing invitation to an existing delega
 
 ### Example 3
 ```powershell
-Set-MailboxFolderPermission -Identity ayla@contoso.com:\Calendar -User ed@contoso.com -AccessRights Editor -SharingPermissionFlags Delegate
+Set-MailboxFolderPermission -Identity ayla@contoso.com:\Calendar -User ed@contoso.com -AccessRights None -SharingPermissionFlags Delegate
 ```
 
 In Office 365, this example removes access to private items for an existing delegate.
